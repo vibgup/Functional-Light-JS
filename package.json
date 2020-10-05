@@ -1,0 +1,29 @@
+{
+  "name": "functional-light-js",
+  "version": "1.0.0",
+  "description": "[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "gitbook serve",
+    "build": "gitbook build",
+    "epub": "gitbook epub ./ ./fljs.epub",
+    "mobi": "gitbook mobi ./ ./fljs.mobi",
+    "pdf": "gitbook pdf ./ ./fljs.pdf",
+    "mobi_chpt": "gitbook mobi",
+    "pdf_chpt": "gitbook pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibgup/Functional-Light-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vibgup/Functional-Light-JS/issues"
+  },
+  "homepage": "https://github.com/vibgup/Functional-Light-JS#readme",
+  "dependencies": {
+    "gitbook-cli": "2.3.2"
+  }
+}
